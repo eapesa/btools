@@ -1,0 +1,28 @@
+{
+    "name": "AdminTools",
+    "private": true,
+    "version": "0.0.0",
+    "description": "a Sails application",
+    "dependencies": {
+        "sails": "0.9.8",
+        "grunt": "0.4.1",
+        "sails-disk": "~0.9.0",
+        "sails-mysql": "*",
+        "ejs": "0.8.4",
+        "optimist": "0.3.4",
+        "async" : "0.2.x",
+        "nconf" : "0.6.x",
+        "redis": "0.8.x",
+        "node-xmpp": "0.15.x",
+        "node-stringprep": "0.2.x",
+        "xmlrpc" : "*"
+    },
+    "scripts": {
+        "start": "node app.js",
+        "debug": "node debug app.js"
+    },
+    "main": "app.js",
+    "repository": "",
+    "author": "",
+    "license": ""
+}
